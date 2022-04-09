@@ -1,4 +1,13 @@
-﻿
-/* This local function is for my first exercise lab.
- * Inside this local function add 4 Console WriteLine statements */
-namespace Intro_Lab;
+﻿using Intro_Lab;
+// Exercise 2 Test
+
+void Exercise2()
+{
+    Exercise2 myExercise2 = new Exercise2();
+    myExercise2.Question1("Question One");
+    myExercise2.Question2();
+    myExercise2.Question3();
+    myExercise2.Question4();
+
+}
+Exercise2();
