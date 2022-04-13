@@ -1,13 +1,13 @@
 ﻿using Intro_Lab;
-// Exercise 2 Test
+// Exercise 3 Test
 
-void Exercise2()
+
+void Exercise3()
 {
-    Exercise2 myExercise2 = new Exercise2();
-    myExercise2.Question1("Question One");
-    myExercise2.Question2();
-    myExercise2.Question3();
-    myExercise2.Question4();
-
+    Exercise3 myExercise3 = new Exercise3();
+    Console.WriteLine(myExercise3.Question1(2));
+    myExercise3.Question2();
+    myExercise3.Question3(10, 100);
+    myExercise3.Question4(false, true);
 }
-Exercise2();
+Exercise3();
