@@ -30,3 +30,12 @@ void Exercise5()
     myExercise5.Question3(16);
 }
 Exercise5();
+
+//Exercise 6 Test
+void Exercise6()
+{
+    Exercise6 myShoes = new Exercise6(10, "Nike");
+    Exercise6.TryOn theShoe = myShoes.TryShoe;
+    theShoe($"I tried on a size {myShoes.ShoeSize} {myShoes.ShoeType} shoe");
+}
+Exercise6();
