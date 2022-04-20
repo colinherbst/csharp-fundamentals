@@ -39,3 +39,10 @@ void Exercise6()
     theShoe($"I tried on a size {myShoes.ShoeSize} {myShoes.ShoeType} shoe");
 }
 Exercise6();
+
+//Exercise 7 test
+void Exercise8Test()
+{
+    Exercise8.LengthWidthCalc(5, 3);
+}
+Exercise8Test();
