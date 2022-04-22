@@ -32,4 +32,16 @@ internal class Yacht : Boat
     {
         Console.WriteLine("The Room is booked");
     }
-}
+
+    /*
+    In your child class of Boat, using the override keyword
+    create a method that has the same name as the virtual method from Boat.
+    Add a Console WriteLine that provides a different message from the Boat.
+    */
+
+    public override void MotorOnOff()
+    {
+        Console.WriteLine("The motor turns off");
+    }
+
+} // end class

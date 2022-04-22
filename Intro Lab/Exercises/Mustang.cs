@@ -33,4 +33,14 @@ internal class Mustang : Horse
         Console.WriteLine("The mustang is wild");
     }
 
+    /*
+    In your child class of Horse, using the override keyword create a method that
+    has the same name as the virtual method from Horse.
+    Add a Console WriteLine that provides a different message from the Horse. 
+    */
+    public override void WakeUp()
+    {
+        Console.WriteLine("The Mustang does not wake up");
+    }
+
 } // end class

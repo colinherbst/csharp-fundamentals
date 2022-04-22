@@ -1,5 +1,5 @@
 ﻿namespace Intro_Lab;
-/* This class contains my Exercise 10 lab for encapsulation */
+/* This class contains my Exercise 10 lab for encapsulation and my Exercise 12 lab for Polymorphism */
 internal class Horse
 {
     /*
@@ -31,6 +31,19 @@ internal class Horse
     public virtual void WakeUp()
     {
         Console.WriteLine("The horse wakes up");
+
+    } // end class
+
+    /*
+    In your Horse class, add the virtual keyword to your method created in Lesson 10.
+    Create a second version of the same method and add a parameter.
+    Include a Console WriteLine method in the new method that uses the parameter. 
+    This parameter needs to be based on one of your properties. 
+    */
+
+    public void WakeUp(string horseColor)
+    {
+        Console.WriteLine($"The {horseColor} horse wakes up.");
     }
-}
+} // end class
 

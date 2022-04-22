@@ -41,4 +41,20 @@ internal class Boat
     public Boat()
         : this(3,"White") { }
 
+    /*
+    In your Boat class, add the virtual keyword to your method created in Lesson 10. 
+    Create a second version of the same method and add a parameter.
+    Include a Console WriteLine method in the new method that uses the parameter.
+    This parameter needs to be based on one of your properties. 
+    */
+    public virtual void MotorOnOff()
+    {
+        Console.WriteLine("The boat turns on");
+    }
+
+    public void MotorOnOff(string boatColor)
+    {
+        Console.WriteLine($"the {boatColor} boat turns on");
+    }
+
 } // end class
