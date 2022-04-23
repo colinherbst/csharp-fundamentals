@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace MyFirstTestProject
+/* This class contains my Exercise 10 lab for Unit Testing */
 {
     [TestClass]
     public class Lesson10Test
@@ -21,7 +22,7 @@ namespace MyFirstTestProject
             Assert.AreEqual(lastName, myLesson10.LastName);
             Assert.AreEqual(zipCode, myLesson10.ZipCode);
 
-        }
+        } // end method
 
         /*
         Write a test method inside the Lesson10Test.cs file. Ensure you have the [TestMethod] above this method.
@@ -48,5 +49,6 @@ namespace MyFirstTestProject
             Assert.AreEqual(id, lesson10.Id);
         }
 
-    }
-}
+    } // end method
+
+} // end class
