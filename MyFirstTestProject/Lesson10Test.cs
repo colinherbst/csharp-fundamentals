@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace MyFirstTestProject
-/* This class contains my Exercise 10 lab for Unit Testing */
+/* This class contains my Exercise 18 lab for Unit Testing */
 {
     [TestClass]
     public class Lesson10Test
